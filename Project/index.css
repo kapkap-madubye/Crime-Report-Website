@@ -1,0 +1,691 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Sans-serif;
+    
+
+
+    overflow-x:hidden;
+    
+    
+    
+}
+ /*slide showwwwwwwwwwwwwwwwwwwwwwww*/
+ #slide1{
+     position:relative;
+     right:-138px;
+     
+ }
+
+.con{
+    display:flex;
+    position:relative;
+    right:370px;
+}
+.swiper{
+    width:40%;
+    height:405px;
+    position:relative;
+    right:29px;
+}
+.crime{
+    background-image: url("images/snow.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/*with account login form*/
+
+
+
+.form{
+    background-image:url("images/back.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+
+}
+.form a{
+    color:black;
+}
+.form form{
+    width:30%;
+    border-radius:20px;
+    height: 210px;
+    margin:23px;
+    padding:35px;
+    position:relative;
+    right:-50px;
+    bottom:-90px;
+    background-color: white;
+    opacity: 0.8;
+}
+.form form input{
+    padding:5px;
+    margin:7px;
+    width:220px;
+    outline:none;
+    position:relative;
+    right:-12px;
+}
+ /*        END    END END END END        END                 */
+
+/* styling form 2 file*/
+.form2{
+    background-image:url("images/back.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+
+}
+.form2 a{
+    color:black;
+}
+.form2 form{
+    width:30%;
+    border-radius:30px;
+    height: 296px;
+    margin:19px;
+    padding:30px;
+    position:relative;
+    right:-50px;
+    bottom:-90px;
+    background-color: white;
+    opacity: 0.8;
+}
+.form2 form input{
+    padding:5px;
+    margin:7px;
+    width:220px;
+    outline:none;
+    position:relative;
+    right:-12px;
+}
+
+
+
+
+/* END END END END END END END    */
+
+/* STYLING THE REPORT PAGE*/
+
+.reportpage{
+    position:relative;
+    right:-353px;
+    background-image:url("images/snow.jpg");
+    background-repeat:no-repeat;
+    padding:20px;
+    margin:30px;
+    width:220%;
+    bottom:110px;
+    
+   
+    
+    
+}
+#reportpage{
+    position:relative;
+    bottom:40px;
+}
+
+
+
+.members{
+    position:relative;
+    bottom:-35px;
+    right:-30px;
+}
+mark{
+    position:relative;
+    bottom:-30px;
+    right:-30px;
+}
+/*Contact us page design */
+.contactpage h1{
+    position:relative;
+    right:-505px;
+}
+.contactpage h2{
+    position:relative;
+    right:-80px;
+}
+.contactpage h4{
+    position:relative;
+    right:-120px;
+}
+.contactpage h5{
+    position:relative;
+    right:-150px;
+}
+.contactpage ul li{
+    position:relative;
+    right:-130px;
+}
+/* END */
+
+/*ABOUT US PAGE DESIGN*/
+.aboutuspage  h1{
+    position:relative;
+    right:-505px;
+}
+.aboutuspage  h2{
+    position:relative;
+    right:-80px;
+}
+.aboutuspage  h5{
+    position:relative;
+    right:-120px;
+}
+.aboutuspage  p{
+    position:relative;
+    right:-80px;
+}
+#popup{
+    width:400px;
+    background-color: #3c5077;
+    border-radius:6px;
+    position:relative;
+    top:50%;
+    left:50%;
+    text-align:center;
+    transform:translate(-50%,-50%);
+
+}
+.popup img{
+    width:60px;
+}
+
+
+
+
+
+
+div h1{
+    color:green;
+    font-size: 30px;
+    
+    
+}
+
+
+.header img{
+    width:150px;
+    position: relative;
+    right:-3.2px;
+    bottom:-2.7px;
+    border-radius: 2px;
+    
+
+}
+.navigation{
+    background-color: #444;
+    padding:12px;
+    left:240px;
+    width: 640px;
+    position: relative;
+    bottom:110px;
+    border-radius:6px;
+    
+  
+}
+ .navigation a{
+    text-decoration:none;
+    position: relative;
+    display:inline;
+    right:-15px;
+    bottom: 3px;
+    font-size:15px;
+    padding:30px;
+    margin:9px;
+    color:white;
+    transition:0.3s;
+    
+}
+.navigation a:hover{
+    color:rgb(8, 247, 8);
+    
+    
+    
+}
+.navigation a::after{
+    content:"";
+    position:absolute;
+    background-color:green;
+    height:3.3px;
+    width:0px;
+    left:30px;
+    bottom:20px;
+    transition:0.3s;
+    
+}
+.navigation a:hover::after{
+    width:88px;
+
+
+}
+.signout a{
+    position:relative;
+    right:-1120px;
+    bottom:180px;
+    text-decoration:none;
+    background:green;
+    padding:8px;
+    color:white;
+    border-radius:4px;
+}
+.signout{
+    width:200px;
+    border-radius:6px;
+    
+}
+.signout a:hover{
+    background:red;
+}
+
+/* ABOUT US CONTACT*/
+
+.signout1 a{
+    position:relative;
+    right:-1120px;
+    bottom:180px;
+    text-decoration: none;
+    background:green;
+    padding:8px;
+    color:white;
+    border-radius: 4px;
+
+    
+}
+.signout1{
+    width:200px;
+    border-radius:6px;
+}
+.signout1 a:hover{
+    background:red;
+}
+
+
+
+
+
+
+
+.footer{
+    background-color:rgb(124, 113, 113);
+    width:80.5%;
+    position:relative;
+    bottom:540px;
+    padding:12px;
+    margin:10px;
+    height:190px;
+
+}
+.socials a{
+    display:block;
+    margin:6px;
+    
+}
+
+
+.About-us{
+    position:relative;
+    right:-180px;
+    top:-80px;
+ 
+}
+.About-us a{
+    text-decoration:none;
+    color:black;
+}
+
+.news-letter{
+    position:relative;
+    top:-107px;
+    right:-440px;
+}
+.news-letter input{
+    width:30%;
+    height:35px;
+    
+}
+.news-letter input:focus{
+    outline: none;
+}
+
+.news-letter button {
+    font-size:20px;
+    padding:normal;
+    width:12%;
+    height:41px;
+    outline:none;
+    position:absolute;
+    
+}
+
+/* Home/Context footer # */
+
+#socials a{
+    display:block;
+    margin:6px;
+}
+
+#About-us{
+    position:relative;
+    right:-180px;
+    top:-126px;
+}
+
+#About-us a{
+    text-decoration:none;
+    color:black;
+}
+
+
+
+
+#footer1{
+    background-color:rgb(124, 113, 113);
+    width:80.5%;
+    padding:12px;
+    margin:10px;
+    height:150px;
+    position:relative;
+    bottom:-57px;
+
+}
+#About-us a{
+    position:relative;
+    bottom:-40px;
+}
+
+#news-letter{
+    position:relative;
+    bottom:110px;
+    right:-450px;
+}
+
+#news-letter input{
+    width:30%;
+    height:35px;
+
+}
+
+#news-letter input:focus{
+    outline:none;
+}
+
+#news-letter button{
+    font-size:20px;
+    padding:normal;
+    width:12%;
+    height:41px;
+    outline:none;
+    position:absolute; 
+}
+
+
+/*News styling*/
+
+.greenhouse-scale img{
+    width:40%;
+
+}
+.context{
+    position:relative;
+    right:-50px;
+
+}
+.greenhouse-scale small{
+    color:red;
+}
+
+/* Product pages navigation styling*/
+
+.navbars a{
+    text-decoration: none;
+}
+
+
+
+
+
+/*----------------------Responsive----------------------- RESPONSIVE-----------------Responsive--------------------*/
+
+@media screen and (max-width:600px){
+    body{
+        overflow-x:visible;
+    }
+    
+    .header img{
+        width:70px;
+    }
+    .form form{
+        width:65%;
+        position:relative;
+        right:12px;
+        bottom:12px;
+        background-size: cover;
+    }
+    .form2 form{
+        width:65%;
+        position:relative;
+        right:12px;
+        bottom:12px;
+    }
+    .navigation{
+        background-color: #444;
+        width:280px;
+        position: relative;
+        bottom:50px;
+        left:82px;
+        border-radius:6px;
+        height:39px;
+    
+   
+    }
+    .navigation a{
+        font-size:10px;
+        padding:10px;
+        left:-12px;
+        margin:0px;
+    }
+    .navigation a:hover{
+        color:rgb(8, 247, 8);
+        
+        
+        
+    }
+    .navigation a::after{
+        content:"";
+        position:absolute;
+        background-color:green;
+        height:1px;
+        width:0px;
+        left:14px;
+        bottom:3px;
+        transition:0.3s;
+        
+    }
+    .navigation a:hover::after{
+        width:26px;
+    
+    
+    }
+    .signout a{
+        position:relative;
+        left:370px;
+        bottom:110px;
+        text-decoration:none;
+        background:green;
+        padding:2px;
+        color:white;
+        border-radius:4px;
+        font-size:13px;
+    }
+    .signout1 a{
+        position:relative;
+        left:370px;
+        bottom:104px;
+        text-decoration:none;
+        background:green;
+        padding:2px;
+        color:white;
+        border-radius:4px;
+        font-size:13px;
+    }
+    .greenhouse-scale img{
+        width:40%;
+    
+    }
+    .context{
+        position:relative;
+        right:-3px;
+    
+    }
+    .context p{
+        font-size:13px;
+        margin:0px;
+        padding:0px;
+    }
+    .context h2{
+        font-size:20px;
+    }
+    .context h1{
+       font-size:25px;
+    }
+    .con{
+        display:flex;
+        position:relative;
+        right:-23px;
+    }
+    
+
+    .swiper{
+        width:167%;
+        height:390px;
+        position:relative;
+        right:29px;
+    }
+    iframe{
+        width:97%;
+    }
+    
+    .reportpage{
+        position:relative;
+        left:20px;
+        width:60%;
+        padding:6px;
+        bottom:50px;
+        margin:0px;
+        background-image:url("images/snow.jpg");
+        background-repeat:no-repeat;
+    }
+    .reportpage textarea{
+        width:56%;
+        height:90px;
+
+    }
+
+    #reportpage{
+        position:relative;
+        bottom:12px;
+    }
+
+    #slide1{
+        position:relative;
+        left:12px;
+        bottom:50px;
+        height:166px;
+    }
+    .aboutuspage h1{
+        position:relative;
+        left:130px;
+        bottom:35px;
+
+    }
+    .aboutuspage h2{
+        position:relative;
+        left:20px;
+        font-size:20px;
+    }
+    .aboutuspage p{
+        position:relative;
+        left:20px;
+        font-size:15px;
+
+    }
+    .aboutuspage h5{
+        position:relative;
+        left:20px;
+        font-size:11px;
+    }
+    .contactpage h1{
+        position:relative;
+        left:130px;
+        bottom:43px;
+
+        
+    }
+    .contactpage h2{
+        position:relative;
+        left:20px;
+        font-size:20px;
+    }
+    .contactpage ul li{
+        position:relative;
+        left:25px;
+        font-size:15px;
+    }
+    .contactpage h4{
+        position:relative;
+        left:20px;
+    }
+    .contactpage h5{
+        position:relative;
+        left:20px;
+    }
+    #news-letter{
+        position:relative;
+        left:25px;
+        bottom:77px;
+        left:38px;
+    }
+    #news-letter h2{
+        font-size:17px;
+    }
+    #news-letter input{
+        height:20px;
+        width:45%;
+    }
+    #news-letter button{
+        height:20px;
+        width:30%;
+        font-size:12px;
+    }
+    .members{
+        position:relative;
+        bottom:12px;
+    }
+    .members h3{
+        font-size:12px;
+
+    }
+    .members h2{
+        font-size:18px;
+    }
+
+    
+   
+   
+    
+
+
+}
+
+
+
+
